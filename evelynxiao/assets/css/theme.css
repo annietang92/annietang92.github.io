@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore|Titillium+Web);
 html {
-font-family:sans-serif;
+font-family: 'La Belle Aurore', cursive;
 -ms-text-size-adjust:100%;
 -webkit-text-size-adjust:100%;
 font-size:62.5%;
@@ -8,7 +8,7 @@ font-size:62.5%;
 }
 
 body {
-font-family: 'Titillium Web', sans-serif;
+font-family: 'La Belle Aurore', cursive;
 font-size:14px;
 line-height:1.428571429;
 color:#333;
