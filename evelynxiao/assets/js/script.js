@@ -9,8 +9,8 @@ function preload(arrayOfImages) {
 // Usage:
 
 preload([
-    '../img/bg-web.jpg',
-    '../img/header.png'
+    '../evelynxiao/assets/imgs/bg-web.jpg',
+    '../evelynxiao/assets/imgs/header.png'
 ]);
 
 $( document ).ready(function() {

@@ -102,6 +102,15 @@ button:hover{
   opacity: 1;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:gray;
+  text-decoration: underline;
+}
 a.active{
   opacity: 1 !important;
   font-weight: 500;
@@ -110,7 +119,6 @@ a.active{
 
 .content{
   width:740px;
-  height:800px;
   margin:-60px 0 0 -400px;
   left:50%;
   background-color: white;
@@ -121,8 +129,8 @@ a.active{
 }
 
 .info{
-  margin-top:50px;
   border-bottom:1px solid lightblue;
+  margin-bottom: 50px;
 }
 .info-blurb{
   border-top:1px solid lightblue;
@@ -141,3 +149,11 @@ a.active{
   color: purple;
 }
 
+.video{
+  margin-bottom:50px;
+}
+
+#map {
+    width: 750px;
+    height: 500px;
+}
