@@ -10,7 +10,8 @@ function preload(arrayOfImages) {
 
 preload([
     '../evelynxiao/assets/imgs/bg-web.jpg',
-    '../evelynxiao/assets/imgs/header.png'
+    '../evelynxiao/assets/imgs/header.png',
+    '../evelynxiao/assets/imgs/home-banner.png',
 ]);
 
 $( document ).ready(function() {
