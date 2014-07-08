@@ -1,3 +1,18 @@
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+        // Alternatively you could use:
+        // (new Image()).src = this;
+    });
+}
+
+// Usage:
+
+preload([
+    '../img/bg-web.jpg',
+    '../img/header.png'
+]);
+
 $( document ).ready(function() {
     // set the date we're counting down to
     var target_date = new Date("Oct 11, 2014").getTime();
