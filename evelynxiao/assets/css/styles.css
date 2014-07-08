@@ -75,9 +75,10 @@ button:hover{
 
 .nav{
   position:fixed;
-  background:rgba(0,0,0,.2);
+  background:rgba(0,0,0,.5);
   width:100%;
   text-align: center;
+  z-index: 5;
 }
 
 .nav>ul{
@@ -87,13 +88,56 @@ button:hover{
 }
 .nav>ul>li{
   display:inline-block;
-  padding:20px 25px;
+  padding:16px 25px;
 }
 .nav>ul>li>a{
   color:white;
-  text-transform: uppercase;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 20px;
+  opacity: .6;
+  font-family: 'La Belle Aurore', cursive;
 }
 
+.nav>ul>li>a:hover{
+  opacity: 1;
+}
+
+a.active{
+  opacity: 1 !important;
+  font-weight: 500;
+  text-decoration: underline !important;
+}
+
+.content{
+  width:740px;
+  height:800px;
+  margin:-60px 0 0 -400px;
+  left:50%;
+  background-color: white;
+  z-index: 3;
+  position: absolute;
+  padding:30px;
+  text-align: center;
+}
+
+.info{
+  margin-top:50px;
+  border-bottom:1px solid lightblue;
+}
+.info-blurb{
+  border-top:1px solid lightblue;
+  width:100%;
+  padding:10px 0;
+  text-align: center;
+}
+
+.la-belle{
+  font-family: 'La Belle Aurore', cursive;
+  color: gray;
+}
+
+.accent{
+  font-weight: bold !important;
+  color: purple;
+}
 
