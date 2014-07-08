@@ -50,3 +50,20 @@ h1,h2,h3,h4,h5,h6{
   color:white;
 }
 
+.enter{
+  text-align: center;
+  margin:40px;
+}
+
+button{
+  padding: 5px 50px;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,.3);
+  border: 5px solid white;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: white;
+}
+
