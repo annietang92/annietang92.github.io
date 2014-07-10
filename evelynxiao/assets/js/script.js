@@ -1,18 +1,3 @@
-function preload(arrayOfImages) {
-    $(arrayOfImages).each(function(){
-        $('<img/>')[0].src = this;
-        // Alternatively you could use:
-        // (new Image()).src = this;
-    });
-}
-
-// Usage:
-
-preload([
-    '../evelynxiao/assets/imgs/bg-web.jpg',
-    '../evelynxiao/assets/imgs/header.png',
-    '../evelynxiao/assets/imgs/home-banner.png',
-]);
 
 $( document ).ready(function() {
     // set the date we're counting down to
