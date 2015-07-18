@@ -1,0 +1,14 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  background-color: #b3d6e0
+}
+
+.img{
+  width:600px;
+  margin: 100px auto 20px auto;
+}
+
+.img>img{
+  width: 100%;
+}
