@@ -7,6 +7,9 @@ html,body{
 
 .img{
   width:600px;
+  height: 271px;
+  background: url('comingsoon.png');
+  background-size: 600px;
   margin: 100px auto 0 auto;
 }
 
