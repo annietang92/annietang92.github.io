@@ -16,25 +16,26 @@ html,body{
 
 .blurb{
   width:600px;
-  margin: 50px auto 0 auto;
+  margin: 80px auto 0 auto;
   text-align: center;
 }
 
 p{
-  line-height: 1.75em;
+  line-height: 2em;
+  font-size: 15px;
 }
 
 h2{
   letter-spacing: .2em;
-  line-height: 3em;
+  line-height: 1.5em;
   text-transform: uppercase;
 }
 
 a{
   text-decoration: none;
-  color:black;
+  color:#77628e;
   font-weight: 700;
 }
 a:hover{
-  color:#77628e;
+  color:white;
 }
