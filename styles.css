@@ -5,20 +5,28 @@ body,html{
   overflow-x: hidden;
 }
 
-///////////
-// FONTS //
-///////////
-
-@font-face{
-  font-family: Nickainley;
-  src: url('Fonts/Nickainley-Normal.woff'),
-  url('Fonts/Nickainley-Normal.otf');
+@font-face {
+  font-family: 'Born';
+  src: url('Born.eot');
+  src: url('Born.eot?#iefix') format('embedded-opentype'),
+    url('Born.woff2') format('woff2'),
+    url('Born.woff') format('woff'),
+    url('Born.ttf') format('truetype'),
+    url('Born.svg#Born') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@font-face{
-  font-family: Born;
-  src: url('Fonts/Born.woff'),
-  url('Fonts/Born.otf');
+@font-face {
+  font-family: 'Nickainley Normal';
+  src: url('Fonts/Nickainley-Normal.eot');
+  src: url('Fonts/Nickainley-Normal.eot?#iefix') format('embedded-opentype'),
+    url('Fonts/Nickainley-Normal.woff2') format('woff2'),
+    url('Fonts/Nickainley-Normal.woff') format('woff'),
+    url('Fonts/Nickainley-Normal.ttf') format('truetype'),
+    url('Fonts/Nickainley-Normal.svg#Nickainley-Normal') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -28,38 +36,38 @@ h1,h2,h3,h4,h5,h6,p{
   font-weight: normal;
 }
 h1{
-  font-family: Nickainley;
+  font-family: 'Nickainley Normal';
   font-size: 48px;
   color: #515976;
 }
 h2{
-  font-family: Nickainley;
+  font-family: 'Nickainley Normal';
   font-size: 38px;
   color: #515976;
 }
 h3{
-  font-family: Born, serif;
+  font-family: 'Born', serif;
   font-size: 26px;
   color: #515976;
 }
 h4{
-  font-family: Born, serif;
+  font-family: 'Born', serif;
   font-size: 20px;
   color: #515976;
 }
 h5{
-  font-family: Born, serif;
+  font-family: 'Born', serif;
   font-size: 16px;
   color: #515976;
 }
 h6{
-  font-family: Born, serif;
+  font-family: 'Born', serif;
   font-size: 14px;
   color: #BFC1CC;
 
 }
 p{
-  font-family: Born, serif;
+  font-family: 'Born', serif;
   font-size: 24px;
   color: #515976;
 }
@@ -70,7 +78,7 @@ img,video{
   width: 100%;
 }
 a{
-  font-family: Born, serif;
+  font-family: 'Born', serif;
   color: #FF7F82;
   text-decoration: none;
 }
@@ -248,7 +256,7 @@ li{
   width: 80%;
 }
 .footer{
-  font-family: Born, serif;
+  font-family: 'Born', serif;
   font-weight: normal;
   color:#bababa;
   font-size: 12px;
