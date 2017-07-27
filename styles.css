@@ -7,12 +7,12 @@ body,html{
 
 @font-face {
   font-family: 'Born';
-  src: url('Born.eot');
-  src: url('Born.eot?#iefix') format('embedded-opentype'),
-    url('Born.woff2') format('woff2'),
-    url('Born.woff') format('woff'),
-    url('Born.ttf') format('truetype'),
-    url('Born.svg#Born') format('svg');
+  src: url('Fonts/Born.eot');
+  src: url('Fonts/Born.eot?#iefix') format('embedded-opentype'),
+    url('Fonts/Born.woff2') format('woff2'),
+    url('Fonts/Born.woff') format('woff'),
+    url('Fonts/Born.ttf') format('truetype'),
+    url('Fonts/Born.svg#Born') format('svg');
   font-weight: normal;
   font-style: normal;
 }
