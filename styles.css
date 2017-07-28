@@ -441,6 +441,9 @@ li{
     bottom: 0;
     left: 0;
   }
+  .hobby{
+    width: 290px;
+  }
 }
 
 /* Small Devices, Tablets */
