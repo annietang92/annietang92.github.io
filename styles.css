@@ -366,6 +366,11 @@ li{
 .seller-hero{
   margin-top: -100px;
 }
+.hobby{
+  width: 400px;
+  padding:10px;
+  display: inline-block;
+}
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 550px) {
