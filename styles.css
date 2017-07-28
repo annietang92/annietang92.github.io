@@ -208,22 +208,22 @@ li{
   background-size: 115%;
 }
 .project-1{
-  background-image: url('Images/index/HVR.png');
+  background-image: url('Images/index/HVR.jpg');
 }
 .project-2{
-  background-image: url('Images/index/Social.png');
+  background-image: url('Images/index/Social.jpg');
 }
 .project-3{
-  background-image: url('Images/index/Seller.png');
+  background-image: url('Images/index/Seller.jpg');
 }
 .project-4{
-  background-image: url('Images/index/Search.png');
+  background-image: url('Images/index/Search.jpg');
 }
 .project-5{
-  background-image: url('Images/index/Trending.png');
+  background-image: url('Images/index/Trending.jpg');
 }
 .project-6{
-  background-image: url('Images/index/Handcrafts.png');
+  background-image: url('Images/index/Handcrafts.jpg');
 }
 .about-photo-1{
   min-height: 700px;
