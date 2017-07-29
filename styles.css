@@ -1,3 +1,63 @@
+// .animated {
+//   -webkit-animation-duration: 2s;
+//   animation-duration: 2s;
+//   -webkit-animation-fill-mode: both;
+//   animation-fill-mode: both;
+// }
+
+@-webkit-keyframes fadeIn {
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to{
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20px, 0);
+    -ms-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to{
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: .7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.delay-200{
+  animation-delay:.2s;
+}
+.delay-400{
+  animation-delay:.4s;
+}
+.delay-600{
+  animation-delay:.6s;
+}
+.delay-800{
+  animation-delay:.8s;
+}
+.delay-1000{
+  animation-delay:1s;
+}
 body,html{
   margin:0;
   padding:0;
@@ -65,6 +125,14 @@ h6{
   font-size: 14px;
   color: #BFC1CC;
 
+}
+
+.delay-200 {
+  transition-delay: .2s;
+}
+
+.delay-400 {
+  // transition-delay: 20s;
 }
 p{
   font-family: 'Born', serif;
@@ -443,6 +511,9 @@ li{
   }
   .hobby{
     width: 290px;
+  }
+  .profile-picture{
+    margin: 80px 0 40px 0;
   }
 }
 
