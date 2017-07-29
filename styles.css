@@ -352,14 +352,14 @@ li{
   width:100px;
   height: 100px;
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 38px;
   position: relative;
 }
 .timeline-img-right{
   right:0;
   height: 100px;
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 38px;
   position: relative;
 }
 
@@ -381,7 +381,6 @@ li{
   background-color: #f0f0f0;
   margin: 0 auto;
 }
-
 
 .step-container{
   position: relative;
@@ -460,6 +459,9 @@ li{
   h3,p{
     font-size: 18px;
   }
+  .step-container h4{
+    font-size: 20px;
+  }
   .project{
     width: 100%;
   }
@@ -481,36 +483,15 @@ li{
   .half-container{
     width: 100%;
   }
-  .timeline-step{
-    margin: 0;
-  }
-  .process-timeline-container{
-    margin: 0 auto;
-    max-width: 340px;
-    margin-top: 100px;
-  }
   .step-container {
-      left: 40px;
-      padding: 24px 0;
-      text-align: left;
-      width: 240px;
+    left: 30px;
+    width: 150px;
   }
-  .timeline-step:after{
-    top:153px
+  .step-container-left{
+    left: -180px;
   }
-  .step-container:before {
-    left: -40px;
-    top: 166px;
-    width: 30px;
-  }
-  .seller-hero{
-    width: 140%;
-    margin-left: -20%;
-  }
-  .timeline-img-right h1{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  .step-container-right:before, .step-container-left:before {
+    background:none;
   }
   .hobby{
     width: 290px;
@@ -534,6 +515,10 @@ li{
   h3,p{
     font-size: 24px;
   }
+  .step-container h4{
+    font-size: 20px;
+  }
+
   .project{
     width: 50%;
   }
@@ -549,35 +534,22 @@ li{
   .half-container{
     width: 50%;
   }
-  .timeline-step{
-    margin: 0;
-  }
-  .process-timeline-container{
-    margin: 0 auto;
-    max-width: 340px;
-    margin-top: 100px;
-  }
   .step-container {
-      left: 40px;
-      padding: 24px 0;
-      text-align: left;
+    left: 30px;
+    width: 230px;
   }
-  .timeline-step:after{
-    top:153px
+  .step-container-left{
+    left: -260px;
   }
-  .step-container:before {
-    left: -40px;
-    top: 166px;
-    width: 30px;
+  .step-container-right:before, .step-container-left:before {
+    background:none;
   }
-  .seller-hero{
-    width: 120%;
-    margin-left: -10%;
+  .hobby{
+    width: 290px;
   }
-  .timeline-img-right h1{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  .profile-picture{
+    margin: 80px 0 40px 0;
   }
+
 }
 
