@@ -168,6 +168,10 @@ ul{
 li{
   list-style: none;
 }
+.inline-icon{
+  width: 20px;
+  padding: 0 5px;
+}
 
 .header-diagonal-background{
   margin-top: -20px;
